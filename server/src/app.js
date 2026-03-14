@@ -8,6 +8,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://promptpal-d1bb4.web.app"
 ];
 
 app.use(cors({
